@@ -10,7 +10,7 @@ def api_caller(url, method, new_post=None):
     elif method == 'DELETE':
         response = requests.delete(url)
     else:
-        print(f"\n{method} is an invalid method! Please try again")
+        print(f"\n{method} is an invalid method! Please try again! Choose: GET, POST or DELETE")
 
     # Status code seperator
 
